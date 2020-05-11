@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+    background-color: rgb(104, 155, 212);
+}
+
+#wrapp {
+    width: 960px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: rgba(113, 218, 153, 0.979);
+    color: rgb(14, 47, 233);
+    position: relative;
+}
+
+#pointborder {
+    height: 600px;
+    width: 5px;
+    background-color: blue;
+    left: 850px;
+    position: absolute;
+}
+
+#result {
+    left: 850px;
+    bottom: 30px;
+    width: 110px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: teal;
+    position: absolute;
+}
+
+#start {
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    left: 375px;
+    top: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 30px;
+    color: white;
+    background-color: teal;
+    position: absolute;
+}
+
+.line {
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    left: 0;
+}
+
+.line-1 {
+    top: 0;
+}
+
+.line-2 {
+    top: 35px;
+}
+
+.line-3 {
+    top: 70px;
+}
+
+.line-4 {
+    top: 105px;
+}
+
+.line-5 {
+    top: 140px;
+}
+
+.line-6 {
+    top: 175px;
+}
+
+.line-7 {
+    top: 210px;
+}
+
+.line-8 {
+    top: 245px;
+}
+
+.line-9 {
+    top: 280px;
+}
+
+.line-10 {
+    top: 315px;
+}
+
+.line-11 {
+    top: 350px;
+}
+
+.line-12 {
+    top: 385px;
+}
+
+.line-13 {
+    top: 420px;
+}
+
+.line-14 {
+    top: 455px;
+}
+
+.line-15 {
+    top: 490px;
+}
+
+#texttyping {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.maininput {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+
+span {
+    background-color: rgba(0, 0, 255, 0.349);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.spanRed {
+    background-color: red;
+}
